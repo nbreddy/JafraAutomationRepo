@@ -1,0 +1,10 @@
+<Shipment ShipAdviceNo="<<SANUMBER>>" OrderNo="<<ONUMBER>>" ActualShipmentDate="<<CDATE>>apos;'&apos;13:05:15" ActualFreightCharge="0" TotalWeight="12" TotalWeightUOM="LBS" CarrierServiceCode="GROUND" SCAC="<<TRMETH>>" DocumentType="0001" ShipNode="0549" EnterpriseCode="BJSUS"> <Extn ExtnShipAdviceNo="<<SANUMBER>>" />
+<Containers>
+<Container TrackingNo="<<TRNUM>>">
+<<CONTDETAIL>>
+</Container>
+</Containers>
+<ShipmentLines> 
+<<SLINEDETAIL>>
+</ShipmentLines>
+</Shipment>

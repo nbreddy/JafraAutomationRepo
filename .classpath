@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/commons-email-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/db2jcc.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/db2jcc_license_cisuz.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/db2jcc_license_cu.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/db2jcc4.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/extentreports-2.41.1.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/javax.mail-api-1.5.5.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/mail.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/poi-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/poi-examples-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/poi-excelant-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/poi-ooxml-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/poi-ooxml-schemas-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/poi-scratchpad-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/selenium-server-standalone-3.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/testng-6.11.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/JafraAutomation_Testing/JafraAutomationRepo/ExternalJars/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

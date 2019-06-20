@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Template Automation Suite" duration-ms="477206" started-at="2019-06-20T07:36:54Z" finished-at="2019-06-20T07:44:52Z">
+    <groups>
+    </groups>
+    <test name="TestCase_TC_001_B2B" duration-ms="171993" started-at="2019-06-20T07:36:54Z" finished-at="2019-06-20T07:39:46Z">
+      <class name="com.cognizant.support.TestRunner">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.cognizant.support.TestRunner@661972b0]" name="beforeTest" is-config="true" duration-ms="191" started-at="2019-06-20T13:06:54Z" finished-at="2019-06-20T13:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001_B2B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@29d80d2b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:com.cognizant.support.TestRunner@661972b0]" name="test" duration-ms="171754" started-at="2019-06-20T13:06:55Z" finished-at="2019-06-20T13:09:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001_B2B]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:com.cognizant.support.TestRunner@661972b0]" name="afterTest" is-config="true" duration-ms="3" started-at="2019-06-20T13:09:46Z" finished-at="2019-06-20T13:09:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify user can login to jafra B2B website site with valid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.cognizant.support.TestRunner -->
+    </test> <!-- TestCase_TC_001_B2B -->
+    <test name="TestCase_TC_016_B2C" duration-ms="304888" started-at="2019-06-20T07:39:47Z" finished-at="2019-06-20T07:44:52Z">
+      <class name="com.cognizant.support.TestRunner">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.cognizant.support.TestRunner@52bf72b5]" name="beforeSuite" is-config="true" duration-ms="1434" started-at="2019-06-20T13:06:53Z" finished-at="2019-06-20T13:06:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D:\JafraAutomation_Testing\JafraAutomationRepo\Logs\Execution 2019-06-20 13-06-49\]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.cognizant.support.TestRunner@52bf72b5]" name="beforeTest" is-config="true" duration-ms="132" started-at="2019-06-20T13:09:47Z" finished-at="2019-06-20T13:09:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_016_B2C]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@58e1d9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:com.cognizant.support.TestRunner@52bf72b5]" name="test" duration-ms="304754" started-at="2019-06-20T13:09:47Z" finished-at="2019-06-20T13:14:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_016_B2C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:com.cognizant.support.TestRunner@52bf72b5]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-06-20T13:14:52Z" finished-at="2019-06-20T13:14:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B2C Normal flow order ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="afterSuite()[pri:0, instance:com.cognizant.support.TestRunner@52bf72b5]" name="afterSuite" is-config="true" duration-ms="4264" started-at="2019-06-20T13:14:52Z" finished-at="2019-06-20T13:14:57Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/sun/mail/util/MailLogger]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
+	at javax.mail.Session.initLogger(Session.java:230)
+	at javax.mail.Session.<init>(Session.java:214)
+	at javax.mail.Session.getInstance(Session.java:251)
+	at org.apache.commons.mail.Email.getMailSession(Email.java:685)
+	at org.apache.commons.mail.Email.buildMimeMessage(Email.java:1263)
+	at org.apache.commons.mail.MultiPartEmail.buildMimeMessage(MultiPartEmail.java:258)
+	at org.apache.commons.mail.HtmlEmail.buildMimeMessage(HtmlEmail.java:528)
+	at org.apache.commons.mail.Email.send(Email.java:1422)
+	at com.cognizant.report.SendMailSSLWithAttachment.sendReport(SendMailSSLWithAttachment.java:33)
+	at com.cognizant.report.CreateHtmlResult.createHtmlResult(CreateHtmlResult.java:54)
+	at com.cognizant.report.ResultGenerator.closeResult(ResultGenerator.java:164)
+	at com.cognizant.support.TestRunner.afterSuite(TestRunner.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:350)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at com.cognizant.support.TestNGXMLGenerator.runTestNGXML(TestNGXMLGenerator.java:78)
+	at com.cognizant.executor.SuiteRunner.main(SuiteRunner.java:45)
+Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.cognizant.support.TestRunner -->
+    </test> <!-- TestCase_TC_016_B2C -->
+  </suite> <!-- Template Automation Suite -->
+</testng-results>

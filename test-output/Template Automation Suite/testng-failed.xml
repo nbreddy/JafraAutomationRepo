@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Template Automation Suite]" parallel="tests">
+  <parameter name="LogFilePath" value="D:\JafraAutomation_Testing\JafraAutomationRepo\Logs\Execution 2019-06-13 16-17-53\"/>
+  <test name="TestCase_TC_002_B2B(failed)" parallel="tests">
+    <parameter name="Description" value="Verify user can navigate to PLP through the Category-SubCategoryavailable in jafra B2B site"/>
+    <parameter name="TestCase" value="TC_002_B2B"/>
+    <parameter name="Iteration" value="1"/>
+    <parameter name="Scenario" value="B2BPROD"/>
+    <classes>
+      <class name="com.cognizant.support.TestRunner">
+        <methods>
+          <include name="afterTest"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.cognizant.support.TestRunner -->
+    </classes>
+  </test> <!-- TestCase_TC_002_B2B(failed) -->
+  <test name="TestCase_TC_003_B2B(failed)" parallel="tests">
+    <parameter name="Description" value="Verify user can navigate to PLP directly through the Category"/>
+    <parameter name="TestCase" value="TC_003_B2B"/>
+    <parameter name="Iteration" value="1"/>
+    <parameter name="Scenario" value="B2BPROD"/>
+    <classes>
+      <class name="com.cognizant.support.TestRunner">
+        <methods>
+          <include name="afterTest"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.cognizant.support.TestRunner -->
+    </classes>
+  </test> <!-- TestCase_TC_003_B2B(failed) -->
+  <test name="TestCase_TC_004_B2B(failed)" parallel="tests">
+    <parameter name="Description" value="Verify user can Search Product through suggested category"/>
+    <parameter name="TestCase" value="TC_004_B2B"/>
+    <parameter name="Iteration" value="1"/>
+    <parameter name="Scenario" value="B2BPROD"/>
+    <classes>
+      <class name="com.cognizant.support.TestRunner">
+        <methods>
+          <include name="afterTest"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.cognizant.support.TestRunner -->
+    </classes>
+  </test> <!-- TestCase_TC_004_B2B(failed) -->
+</suite> <!-- Failed suite [Template Automation Suite] -->
