@@ -1,2 +1,2 @@
 # JafraAutomationRepo
-Jafra Qa automation repository 
+Jafra QA Automation Repository 
