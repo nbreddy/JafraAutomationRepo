@@ -1,0 +1,46 @@
+<project name="JafraAutomation" basedir=".">
+	<path id="compile.classpath">
+		<fileset dir="ExternalJars">
+			<include name="*.jar"/>
+		</fileset>
+		<pathelement path="build/classes"/>
+	</path>
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+	
+
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes">
+        	<classpath refid="compile.classpath"></classpath>
+        </javac>	
+    </target>
+
+    <target name="jar">
+        <mkdir dir="build/jar"/>           	
+    	<mkdir dir="lib"/>  	
+    	<jar destfile="build/jar/JafraAutomationRepo.jar" basedir="build/classes" includes="**.*">
+    	        <zipgroupfileset dir="lib" includes="ExternalJars/*.jar"> </zipgroupfileset>	
+    	            <manifest>
+    	                <attribute name="Main-Class" value="com.cognizant.executor.SuiteRunner"/>
+    	            </manifest>
+    	        </jar>
+    </target>
+	
+	
+	
+	<path id="runtime.path">
+	            <fileset dir="ExternalJars" includes="*.jar"/>
+	    </path>
+
+    <target name="run">
+        <java classname="com.cognizant.executor.SuiteRunner" fork="false" classpathref="runtime.path">
+        	<classpath path="build/classes">
+        		<filelist dir="ExternalJars">
+        		</filelist> 
+        	</classpath>	
+        	</java>
+    </target>
+
+</project>
