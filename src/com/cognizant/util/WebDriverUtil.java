@@ -38,7 +38,7 @@ public class WebDriverUtil {
 				driver = new InternetExplorerDriver();
 				break;
 			case FIREFOX:
-				File firefoxDriverFile = new File(browserDriverPath + "geckodriver.exe");
+				File firefoxDriverFile = new File(browserDriverPath + "geckodriver");
 				System.setProperty("webdriver.gecko.driver", firefoxDriverFile.getAbsolutePath());
 				driver = new FirefoxDriver();
 				break;
@@ -46,7 +46,7 @@ public class WebDriverUtil {
 			default:
 				DesiredCapabilities capabilities = new DesiredCapabilities().chrome();
 				capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-				File chromeDriverFile = new File(browserDriverPath + "chromedriver.exe");
+				File chromeDriverFile = new File(browserDriverPath + "chromedriver");
 				System.setProperty("webdriver.chrome.driver", chromeDriverFile.getAbsolutePath());
 				
 				/*try {
@@ -75,7 +75,7 @@ public class WebDriverUtil {
 			chromeOptions.put("mobileEmulation", mobileEmulation);
 			DesiredCapabilities desiredCapabilities = DesiredCapabilities.chrome();
 			desiredCapabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
-			File chromeDriverFile = new File(browserDriverPath + "chromedriver.exe");
+			File chromeDriverFile = new File(browserDriverPath + "chromedriver");
 			System.setProperty("webdriver.chrome.driver", chromeDriverFile.getAbsolutePath());
 			driver = new ChromeDriver(desiredCapabilities);
 			break;
