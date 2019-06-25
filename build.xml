@@ -1,4 +1,4 @@
-<project name="JafraAutomation" basedir=".">
+<project name="JafraAutomation"  default="run" basedir=".">
 	<path id="compile.classpath">
 		<fileset dir="ExternalJars">
 			<include name="*.jar"/>
@@ -34,7 +34,7 @@
 	            <fileset dir="ExternalJars" includes="*.jar"/>
 	    </path>
 
-    <target name="run">
+    <target name="run" depends="clean,compile">
         <java classname="com.cognizant.executor.SuiteRunner" fork="false" classpathref="runtime.path">
         	<classpath path="build/classes">
         		<filelist dir="ExternalJars">
